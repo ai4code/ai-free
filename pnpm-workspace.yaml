@@ -1,0 +1,3 @@
+packages:
+  # 匹配packages下所有文件夹
+  - "packages/*"

@@ -1,0 +1,12 @@
+{
+  "name": "@ai4code/ws-server",
+  "version": "1.0.0",
+  "description": "websocket",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "node dist/index.js"
+  },
+  "author": "ai4code",
+  "license": "ISC"
+}

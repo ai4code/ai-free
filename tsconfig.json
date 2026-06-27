@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "declaration": true,
+    "sourceMap": true,
+    "paths": {
+      "@pkg/*": ["./packages/*/src"]
+    }
+  },
+  "include": [],
+  "references": [
+    { "path": "./packages/ws-server" },
+    { "path": "./packages/app" }
+  ]
+}
